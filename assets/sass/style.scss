@@ -1,0 +1,245 @@
+body, * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    a {
+        text-decoration: none;
+    }   
+    
+}
+body {
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    .navbar {
+        width: 89%;
+        @media (max-width: 1200px) {
+            width: 100%;
+        }
+        .container-fluid {
+            a {
+                font-size: 15px;
+                font-weight: 500;
+            }
+            .aBrand {
+                font-size: 25px;
+                font-weight: 700;
+                span {
+                    color: #0969c3;
+                }
+            }
+            .myBtn1 {
+                padding: 10px 20px;
+                background-color: #0969c3;
+                color: #fff;
+                border: 1px solid black;
+                &:hover {
+                    color: #0969c3;
+                    background-color: #fff;
+                }
+            }
+            .myBtn2 {
+                border: 1px solid black;
+                &:hover {
+                    background-color: black;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+
+.hero {
+    margin-top: 50px;
+    width: 100%;
+    height: 110vh;
+    background-color: #e6F0f9;
+    .maDiv {
+        h1 {
+            @media (max-width: 992px){
+                font-size: 50px;
+            }
+            @media (max-width: 570px){
+                font-size: 40px;
+            }
+            width: 100%;
+            font-size: 64px;
+            margin-bottom: 8px;
+            font-weight: bolder;
+        }
+        p {
+            width: 100%;
+            font-size: 18px;
+            margin-top: 24px;
+        }
+    }
+
+    .myForm {
+        width: 60%;
+        background-color: white;
+        
+    }
+
+    .myImg {
+        margin-left: 200px;
+        margin-top: 100px;
+
+        .ehhe {
+            @media (max-width: 992px) {
+            display: none;
+        }
+            width: 368px;
+            height: 460px;
+            background-color: pink;
+            background-image: url('https://pixelprime.co/themes/jobster/images/hero-bg-1.jpg');
+            background-size: 368px;
+            background-repeat: no-repeat;
+            border-radius: 50px;
+            transform: rotate(0deg);
+            transform-origin: bottom;
+            position: absolute;
+            top: 95px;
+            z-index: 3;
+            margin-top: 100px;
+
+        }
+
+        .blue {
+            @media (max-width: 992px) {
+                display: none;
+            }
+            width: 368px;
+            height: 460px;
+            background-color: blue;
+            transform: rotate(10deg);
+            transform-origin: bottom;
+            position: absolute;
+            z-index: 1;
+            border-radius: 50px;
+        }
+        .white {
+            @media (max-width: 992px) {
+                display: none;
+            }
+            width: 368px;
+            height: 460px;
+            background-color: whitesmoke;
+            transform: rotate(20deg);
+            transform-origin: bottom;
+            position: absolute;
+            border-radius: 50px;
+    
+        }
+    }
+    
+    .PS {
+        li {
+            background-color: #0969c30D;
+            transition: 1s;
+            a {
+                color: #0969c3;
+                font-size: 13px;
+            }
+
+            &:hover {
+                transition: 1s;
+                background-color: #0969c3;
+                a {
+                    color: white;
+                }
+                
+            }
+
+        }
+    }
+
+    .myLogos {
+     margin-top: 90px;
+    }
+}
+.myCard {
+    background-color: #0969c30D; 
+    width: 200px !important;
+    height: 300px !important;
+    padding: 20px !important;
+    .logobox { 
+        width: 102px;
+        height: 102px;
+        background-color: #fff;
+        .fa-bullhorn, .fa-briefcase,.fa-address-card , .fa-calendar, .fa-terminal{
+            font-size: 42px;
+        }
+    }
+    h1 {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    p {
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+}
+
+.hero3 {
+    width: 100%;
+    background-color: beige !important;
+    height: auto ;
+    padding: 120px 0;
+    @media (max-width: 765px){
+        height: 500vh !important;
+    }
+    .mCard2 {
+        height: 370px !important;
+        width: 290px !important;
+        .foot {
+           width: 95%;
+           a {
+               width: 80px;
+               height: 80px;
+               background-image: url('https://pixelprime.co/themes/jobster/images/company-logo-1.png');
+               background-size: cover;
+               background-repeat: no-repeat;
+               border-radius: 18px;
+            }
+        }
+    }
+}
+
+.hero4 {
+    margin-top: 100px !important;
+    width: 100%;
+    height: auto;
+    .myCard3 {
+        background-color: bisque;
+        border: 0px;
+        border-radius: 40px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        .img {
+            overflow: hidden;
+            border-radius: 30px;
+            .myImg {
+                transition: 1s;
+                &:hover {
+                   transform: scale(1.1);
+                transition: 1s; 
+                }
+                
+                
+            }
+            .img2 {
+                    width: 520px;
+                    height: 510px !important;
+                }
+        }
+    }
+}

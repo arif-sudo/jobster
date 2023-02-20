@@ -1,0 +1,238 @@
+body, * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body a, * a {
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+header .navbar {
+  width: 89%;
+}
+@media (max-width: 1200px) {
+  header .navbar {
+    width: 100%;
+  }
+}
+header .navbar .container-fluid a {
+  font-size: 15px;
+  font-weight: 500;
+}
+header .navbar .container-fluid .aBrand {
+  font-size: 25px;
+  font-weight: 700;
+}
+header .navbar .container-fluid .aBrand span {
+  color: #0969c3;
+}
+header .navbar .container-fluid .myBtn1 {
+  padding: 10px 20px;
+  background-color: #0969c3;
+  color: #fff;
+  border: 1px solid black;
+}
+header .navbar .container-fluid .myBtn1:hover {
+  color: #0969c3;
+  background-color: #fff;
+}
+header .navbar .container-fluid .myBtn2 {
+  border: 1px solid black;
+}
+header .navbar .container-fluid .myBtn2:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.hero {
+  margin-top: 50px;
+  width: 100%;
+  height: 110vh;
+  background-color: #e6F0f9;
+}
+.hero .maDiv h1 {
+  width: 100%;
+  font-size: 64px;
+  margin-bottom: 8px;
+  font-weight: bolder;
+}
+@media (max-width: 992px) {
+  .hero .maDiv h1 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 570px) {
+  .hero .maDiv h1 {
+    font-size: 40px;
+  }
+}
+.hero .maDiv p {
+  width: 100%;
+  font-size: 18px;
+  margin-top: 24px;
+}
+.hero .myForm {
+  width: 60%;
+  background-color: white;
+}
+.hero .myImg {
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.hero .myImg .ehhe {
+  width: 368px;
+  height: 460px;
+  background-color: pink;
+  background-image: url("https://pixelprime.co/themes/jobster/images/hero-bg-1.jpg");
+  background-size: 368px;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  transform: rotate(0deg);
+  transform-origin: bottom;
+  position: absolute;
+  top: 95px;
+  z-index: 3;
+  margin-top: 100px;
+}
+@media (max-width: 992px) {
+  .hero .myImg .ehhe {
+    display: none;
+  }
+}
+.hero .myImg .blue {
+  width: 368px;
+  height: 460px;
+  background-color: blue;
+  transform: rotate(10deg);
+  transform-origin: bottom;
+  position: absolute;
+  z-index: 1;
+  border-radius: 50px;
+}
+@media (max-width: 992px) {
+  .hero .myImg .blue {
+    display: none;
+  }
+}
+.hero .myImg .white {
+  width: 368px;
+  height: 460px;
+  background-color: whitesmoke;
+  transform: rotate(20deg);
+  transform-origin: bottom;
+  position: absolute;
+  border-radius: 50px;
+}
+@media (max-width: 992px) {
+  .hero .myImg .white {
+    display: none;
+  }
+}
+.hero .PS li {
+  background-color: rgba(9, 105, 195, 0.0509803922);
+  transition: 1s;
+}
+.hero .PS li a {
+  color: #0969c3;
+  font-size: 13px;
+}
+.hero .PS li:hover {
+  transition: 1s;
+  background-color: #0969c3;
+}
+.hero .PS li:hover a {
+  color: white;
+}
+.hero .myLogos {
+  margin-top: 90px;
+}
+
+.myCard {
+  background-color: rgba(9, 105, 195, 0.0509803922);
+  width: 200px !important;
+  height: 300px !important;
+  padding: 20px !important;
+}
+.myCard .logobox {
+  width: 102px;
+  height: 102px;
+  background-color: #fff;
+}
+.myCard .logobox .fa-bullhorn, .myCard .logobox .fa-briefcase, .myCard .logobox .fa-address-card, .myCard .logobox .fa-calendar, .myCard .logobox .fa-terminal {
+  font-size: 42px;
+}
+.myCard h1 {
+  font-size: 18px;
+  margin-top: 30px;
+}
+.myCard p {
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.hero3 {
+  width: 100%;
+  background-color: beige !important;
+  height: auto;
+  padding: 120px 0;
+}
+@media (max-width: 765px) {
+  .hero3 {
+    height: 500vh !important;
+  }
+}
+.hero3 .mCard2 {
+  height: 370px !important;
+  width: 290px !important;
+}
+.hero3 .mCard2 .foot {
+  width: 95%;
+}
+.hero3 .mCard2 .foot a {
+  width: 80px;
+  height: 80px;
+  background-image: url("https://pixelprime.co/themes/jobster/images/company-logo-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 18px;
+}
+
+.hero4 {
+  margin-top: 100px !important;
+  width: 100%;
+  height: auto;
+}
+.hero4 .myCard3 {
+  background-color: bisque;
+  border: 0px;
+  border-radius: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.hero4 .myCard3 .img {
+  overflow: hidden;
+  border-radius: 30px;
+}
+.hero4 .myCard3 .img .myImg {
+  transition: 1s;
+}
+.hero4 .myCard3 .img .myImg:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.hero4 .myCard3 .img .img2 {
+  width: 520px;
+  height: 510px !important;
+}/*# sourceMappingURL=style.css.map */
